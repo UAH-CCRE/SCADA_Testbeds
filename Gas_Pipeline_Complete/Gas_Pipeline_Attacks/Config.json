@@ -1,0 +1,21 @@
+{
+"coils" : {
+	"Pump":0,
+	"Valve":1
+},
+"discreteInputs":{
+	},
+"holdingRegisters":{
+	"Min_SP":1,
+	"Max_SP":2,
+	"Mode_reg":3,
+	"Manual Pump Register":4,
+	"Manual Valve Register":5,
+	"Pressure_psi" :6
+},
+"inputRegisters":{
+	"Pressure":0
+	},
+"set_interval_period":2,
+"Network_Interface":"eth0"
+}

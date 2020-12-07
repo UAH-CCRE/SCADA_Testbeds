@@ -1,0 +1,5 @@
+if (ip.proto == TCP) {
+	if (tcp.dst == 502 || tcp.src == 502) {
+		drop();
+	}
+}

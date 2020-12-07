@@ -1,0 +1,4 @@
+if (ip.proto == TCP && tcp.src == 502) {
+    DATA.data + 5 = 0x40;
+    DATA.data + 8 = 0x40;    
+}

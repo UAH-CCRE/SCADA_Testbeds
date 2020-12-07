@@ -1,0 +1,4 @@
+if (ip.proto == TCP && tcp.src == 502  ) {
+	drop();
+	inject("./fake_payloads/Payload_Naive_Full_{[choice]}");
+}

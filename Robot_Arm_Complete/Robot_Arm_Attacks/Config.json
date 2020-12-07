@@ -1,0 +1,22 @@
+{
+"coils" : {
+},
+"discreteInputs":{
+	},
+"holdingRegisters":{
+	"Theta1_out":0,
+	"Theta2_out":1,
+	"Theta1_sp":2,
+	"Theta2_sp":3,
+	"Length1":4,
+	"Length2":5
+	},
+"inputRegisters":{
+	"Tau1":0,
+	"Tau2":1,
+	"Theta1":2,
+	"Theata2":3
+	},
+"set_interval_period":2,
+	"Network_Interface":"Adapter for loopback traffic capture"
+}

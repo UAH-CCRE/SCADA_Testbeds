@@ -1,0 +1,6 @@
+if (ip.proto == TCP && tcp.src == 502) {
+    if (DATA.data + 7 == 0x04 || DATA.data + 7 == 0x03) {
+        #input/holding register reading
+        DATA.data + 9 = "{[RANDOM, 255]}";
+    }
+}

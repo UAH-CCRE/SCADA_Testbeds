@@ -1,0 +1,10 @@
+if (ip.proto == TCP && tcp.src == 502) {
+    log(DATA.data, "./packet.packet");
+    drop();
+    
+    #history should be a json file (the caller should ensure that it is clean at the beginning
+    #and is deleted or stored upon completion to the caller's preference. 
+    #Neither this script nor the packet modifier will delete it.)
+    
+    execinject("{[EXEC_PATH]} {[CWD]}replay_packet_modifier.py {[CWD]}packet.packet {[CWD]}{[history]}");
+}
