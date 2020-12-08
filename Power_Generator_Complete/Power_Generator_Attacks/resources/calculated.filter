@@ -1,9 +1,0 @@
-if (ip.proto == TCP && tcp.src == 502) {
-    if (DATA.data + 7 == {[func_code]}) {
-
-        log(DATA.data, "./packet.packet");
-        drop();
-        execinject("{[EXEC_PATH]} {[CWD]}calculated_packet_modifier.py {[CWD]}packet.packet {[args]}");
-
-    }
-}

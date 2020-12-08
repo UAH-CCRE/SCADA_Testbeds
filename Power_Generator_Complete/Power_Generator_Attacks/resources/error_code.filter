@@ -1,4 +1,0 @@
-if (ip.proto == TCP && tcp.src == 502) {
-	DATA.data + 7 = 0x80;
-	DATA.data + 8 = {[error_code]};
-}
