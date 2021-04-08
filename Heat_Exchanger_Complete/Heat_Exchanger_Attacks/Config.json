@@ -1,0 +1,25 @@
+{
+"coils" : {
+	
+},
+"discreteInputs":{
+	},
+"holdingRegisters":{
+    "Flow":     0,   
+    "Setpoint": 1,   
+    "PID_kp":   2048,
+    "PID_td":   2052,
+    "PID_tr":   2050
+},
+"inputRegisters":{
+    "ColdTempIn":   1,
+    "ColdTempOut":  4,
+    "HotMassFlowIn":3,
+    "HotTempIn":    2,
+    "ShellPress":   6,
+    "Temperature":  0,
+    "TubePress":    5
+	},
+"set_interval_period":2,
+"Network_Interface":"eth0"
+}
