@@ -1,0 +1,22 @@
+{
+"coils" : {
+	"Heat":0,
+	"Cool":1,
+	"Temp_Outside":2
+},
+"discreteInputs":{
+	},
+"holdingRegisters":{
+	"Min_SP":1,
+	"Max_SP":2,
+	"Mode Register":3,
+	"Manual Heat Register":4,
+	"Manual Cool Register":5,
+	"Temp Filtered" :6
+},
+"inputRegisters":{
+	"temp":0
+	},
+"set_interval_period":2,
+"Network_Interface":"eth0"
+}
